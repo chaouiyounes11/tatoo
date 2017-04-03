@@ -94,8 +94,69 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+*
+{
+margin: 0;
+padding: 0;
+background: url(http://phatgiao.org.vn/Images/Contents/kimtam/20170220/phatgiao-org-vn-su-hieu-lam-vo-nga-cua-phat-giao3.jpg) no-repeat center fixed;
+}
 
 
+
+header
+  {
+  display: flex;
+  justify-content: center;
+  }
+
+h1
+  {
+  display: flex;
+  font-size: 4.5em;
+  align-items: center;
+  }
+  figure img
+    {
+
+    float: right;
+    width: 300px;
+    }
+
+    nav
+      {
+        display: flex;
+      justify-content: center;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 6px;
+      background-color: lightgrey;
+
+      }
+
+      ul{
+        display: flex;
+        width: 57%;
+justify-content: space-between;
+      }
+
+      li {
+
+        list-style-type: none;
+        display: flex;
+      }
+
+      li a
+      {
+      text-decoration: none;
+      color: black;
+
+      }
+
+      li a:hover
+        {
+        text-decoration: underline;
+        font-weight: bolder;
+        }
 
 
 
