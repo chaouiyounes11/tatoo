@@ -98,10 +98,92 @@ textarea {
 {
 margin: 0;
 padding: 0;
-background: url(http://phatgiao.org.vn/Images/Contents/kimtam/20170220/phatgiao-org-vn-su-hieu-lam-vo-nga-cua-phat-giao3.jpg) no-repeat center fixed;
 }
 
+ @media (min-width:320px) {
 
+
+{
+margin: 0;
+padding: 0;
+}
+   header
+     {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     }
+
+   header h1
+     {
+     display: flex;
+     font-size: 3em;
+     justify-content: center;
+      background-color: black;
+     color: #ffa31a;
+     text-shadow: 3px 2px 1px silver;
+     }
+
+     header figure img
+       {
+
+
+       width: 232px;
+       border-radius: 100px;
+       box-shadow: 10px 7px 5px black;
+       }
+
+       .photos
+         {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-direction: column;
+         }
+
+        .photos #icecream img
+           {
+             width: 167px;
+  height: 100%;
+           }
+
+           .photos #mexico
+             {
+              margin: 5em 40px;
+             }
+
+             .mob
+               {
+                display: none;
+               }
+
+               #menu
+                 {
+                   display: flex;
+                  background-color: #ffa31a;
+                 position: fixed overflow-y: auto;max-height:90%;
+border-bottom: 2px solid black;
+margin: 0;
+                 padding: 6px;
+                 width: 100%;
+                 margin-bottom: 5px;
+
+                 }
+                 #menu ul
+                 {
+                   flex-direction: column;
+
+
+                 }
+                 #menu ul li
+                   {
+                    justify-content: center;
+                    border-bottom: 2px solid black;
+                   }
+
+}
+
+ /*@media (min-width:768px) {
 
 header
   {
@@ -114,29 +196,58 @@ h1
   display: flex;
   font-size: 4.5em;
   align-items: center;
+  color: #ffa31a;
+  text-shadow: 5px 4px 3px silver;
   }
   figure img
     {
-
-    float: right;
     width: 300px;
+    border-radius: 100px;
+    box-shadow: 10px 7px 5px black;
     }
 
-    nav
+    #icecream img
+      {
+      width: 342px;
+      height: 20%;
+      }
+figure #forme
+  {
+    width: 251px;
+  }
+    #menu
       {
         display: flex;
+      justify-content: center;
+      position: fixed overflow-y: auto;max-height:90%;
+      border-top: 2px solid #ffa31a;
+      border-bottom: 2px solid #ffa31a;
+      padding: 6px;
+      width: 100%;
+      margin-bottom: 5px;
+
+      }
+
+#footer
+      {
+      display: flex;
       justify-content: center;
       border-top: 2px solid black;
       border-bottom: 2px solid black;
       padding: 6px;
       background-color: lightgrey;
+    }
 
-      }
-
+#footer nav
+  {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  }
       ul{
         display: flex;
-        width: 57%;
-justify-content: space-between;
+        width: 77%;
+        justify-content: space-between;
       }
 
       li {
@@ -154,20 +265,92 @@ justify-content: space-between;
 
       li a:hover
         {
-        text-decoration: underline;
         font-weight: bolder;
         }
 
+      #buddah
+        {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        }
+
+        #buddahfromhome
+          {
+          background-color: black;
+          }
+
+      h2
+        {
+        border-top: 2px solid black;
+        text-align: center;
+        padding-top: 30px;
+        }
 
 
+      #contactfromhome
+        {
+        background-color: #ffa31a;;
+        }
+
+        form
+          {
+            margin: 0 auto;
+   width: 400px;
+
+   padding: 1em;
+   margin: 0 auto;
+width: 97%;
+padding: 1em;
+display: flex;
+flex-direction: column;
+align-items: center;
+          }
+
+p
+  {
+  margin: 3% 10% 5% 10%;
+  text-align: center;
+  font-size: 2em;
+  border-top: 3px solid #ffa31a;
+  border-bottom: 3px solid #ffa31a;
+  font-style: oblique;
+  }
+
+          input
+            {
+              margin-top: 1em;
+            }
+label
+{
+  display: inline-block;
+  width: 231px;
+  text-align: center;
+  margin: 10px;
+  font-weight: bolder;
+}
 
 
+.photos
+  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+#icecream img
+  {
+  box-shadow: 2px black;
+  }
+  figcaption
+  {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #ffa31a;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px black;
+  }
 
-
-
-
-
-
+}*/
 
 
 
